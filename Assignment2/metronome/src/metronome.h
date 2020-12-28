@@ -41,6 +41,7 @@ struct metro_ocb;
 #define SET_PULSE_CODE   (_PULSE_CODE_MINAVAIL +5)    //5
 
 
+
 /************************
  * CONNECTIONS | PATH
  ************************/
@@ -141,6 +142,7 @@ void start_timer(struct itimerspec * itime, timer_t timer_id,Metronome_t* Metron
 void usage();/* Error message USAGE print out */
 metro_ocb_t * metro_ocb_calloc(resmgr_context_t *ctp, IOFUNC_ATTR_T *mtattr);
 void metro_ocb_free(IOFUNC_OCB_T *mocb);
+
 
 
 #endif /* SRC_METRONOME_H_ */

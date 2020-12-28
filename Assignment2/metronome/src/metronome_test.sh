@@ -41,6 +41,15 @@ echo stop > /dev/local/metronome-help
 echo "********************************************"
 sleep 10
 
+#Unit Test : Write to metronome-help
+echo "********************************************"
+echo "Unit Test [Additional] \necho stop > /dev/local/metronome-help"
+echo "Expected: Cannot Write to Device /dev/local/metronome-help"
+echo "Output:\n"
+echo stop > /dev/local/metronome-help
+echo "********************************************"
+sleep 10
+
 echo "\n"
 echo "\n"
 
