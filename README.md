@@ -3,7 +3,8 @@ Project created in CST8244 - Real Time - Target QNX Neutrino RTOS.
 
 
 Metronome is a program that is targeted for QNX Neutrino RTOS.
-It uses Inter-Process Communication between a resource manager that handles two paths. 
+It uses Inter-Process Communication between a resource manager that handles two paths and a second thread that acts as the controller of the output
+using a interval timer to calculate intervals and displays of patterns, stop, pause or quit functionalities. 
 
 Device Path:
 
